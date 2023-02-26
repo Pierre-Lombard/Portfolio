@@ -35,7 +35,7 @@ ul {
     font-weight: 200;
   }
   
-  li a {
+  li a, .weather {
     display: block;
     color: white;
     text-align: center;
@@ -46,7 +46,15 @@ ul {
   li a:hover {
     text-decoration: none;  
   }
-  
+
+  .icon{
+    margin-top: 5pt;
+  }
+
+  .btnWeather{
+    background-color: transparent;
+    border: none;
+  }
 .hero{
   display: flex;
   flex-direction: row;
@@ -99,6 +107,7 @@ ul {
   width: 20%;
   margin-left: 40%;
   margin-bottom: 40%;
+  margin-top: 10pt;
 }
 .git:active, .git:hover{
   outline: 0;
