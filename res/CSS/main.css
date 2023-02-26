@@ -7,6 +7,9 @@
     color: white;
     font-size: 15pt;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-image: linear-gradient(
         to right,
@@ -129,6 +132,59 @@ ul {
  .git:active {
   transform: scale(0.9);
  }
+
+ .about{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: center;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+  margin-top: 9%;
+ }
+ .pfp{
+  width: 10%;
+  height: auto;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 15pt;
+  padding-top: 15pt;
+ }
+
+.about p{
+  font-size: 17pt;
+}
+.up{
+  font-size: 30px;
+  background-color: white;
+  color: black;
+  width: 2%;
+  margin-left: 95%;
+  margin-right: 3%;
+  height: 45px;
+  opacity: 0.75;
+  border: 1px solid #e7eae8;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: bounce_513 1s infinite;
+}
+
+@keyframes bounce_513 {
+  0%,
+    100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+
+
+
 
 
 

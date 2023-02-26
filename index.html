@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Pierre Lombard</title>
     <link rel="stylesheet" href="res/CSS/main.css">
+    <link rel="stylesheet" href="res/CSS/about.css">
     <script src="res/JS/app.js"></script>
 </head>
 <body>
     <nav>
         <ul> 
+            <li><a href="#about">About Me</a></li>
             <li><a href="res/Pierre Lombard - Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
             <li><a href="mailto:pierre.lombard9@gmail.com">Contact Me</a> </li>
             <li><a href="https://www.linkedin.com/in/pierre-lombard-737801257/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><p id="weather" class="weather">weather</p></li>
             <button class="btnWeather" onclick="getLocation()">
                 <ion-icon name="alert-circle-outline" class="icon"></ion-icon>
             </button>
         </ul>
-
-        
     </nav>
     
    <section class="hero">
@@ -36,6 +36,29 @@
         <img src="res/images/Code typing-amico.png" alt="Illustration" class="hero-image"> 
     </section>
 
+    <section class="about" id="about">
+        <img src="res/images/download.jpeg" alt="" class="pfp">
+        <p class="">
+            Oh Hey! come here often? I am a recent graduate with a <span class="word">Bachelor's degree in Information Technology</span>, 
+            specializing in Software Engineering. With a final <span class="word">average of 85%</span>, my academic performance is a testament to my 
+            dedication and ability to learn and apply new concepts. Aside from my formal education, I have also undertaken various 
+            projects and hobbies that have honed my problem-solving skills. I am excited to bring my proficiency in programming and 
+            problem-solving to a new professional opportunity. <br><br>I am a member of the <span class="word">Golden Key International Honour Society</span> and have 
+            received several academic excellence awards for my outstanding performance. In addition to my technical skills, 
+            I possess excellent interpersonal communication, time management, and decision-making skills. My creativity, critical thinking, adaptability, and 
+            administrative skills make me a well-rounded candidate for any job.
+        </p>
+        <button onclick="contact()" class="git">
+            <span class="text">Get In Touch</span>
+        </button>
+    </section>
+    <button class="up" id="up" onclick="goUp()">
+        ↑
+    </button>
+
+    <section id="projects" class="projecs">
+        one
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
